@@ -1,12 +1,12 @@
 {
   "name": "bitcoin-djs-v13",
   "version": "1.0.0",
-  "description": "lnwdev.net",
+  "description": "fb.com/danunai.sangkachalaw",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LNWDEV",
+  "author": "LNWDEV(inwgodrip)",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
