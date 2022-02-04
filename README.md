@@ -1,4 +1,4 @@
-# crypto-ticker
+# crypto-ticker-discord.js v13
 
 
 
