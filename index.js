@@ -72,42 +72,7 @@ function Prices(){
         }else console.log('Could not load player count data for API')
     }).catch(err => console.log('Error at api.coingecko.com data:', err))
 }
-/*
-function status() {
-    axios.get(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&ids=${coin}`).then(res => {
-        if(res.data && 
-            res.data[0].current_price && 
-            res.data[0].price_change_percentage_24h && 
-            res.data[0].price_change_24h &&
-            res.data[0].high_24h &&
-            res.data[0].low_24h &&
-            res.data[0].total_volume 
-            ){
-            let current_price = res.data[0].current_price || 0
-            let percentageprice24h = res.data[0].price_change_percentage_24h || 0
-            let high_24h = res.data[0].high_24h || 0
-            let low_24h = res.data[0].low_24h || 0
-            let total_volume = res.data[0].total_volume || 0
 
-            const arrayOfStatus = [
-                `$${current_price} (${percentageprice24h.toFixed(2)})%`,
-                `↗High 24h $${high_24h}`,
-                `↘Low 24h $${low_24h}`,
-                `Volume $${total_volume}`,
-            ]
-            
-            let index = 0;
-            setInterval(() => {
-                if (index === arrayOfStatus.length) index = 0;
-                const status = arrayOfStatus[index];
-                client.user.setActivity(status, {type: 3}),
-                    index++;
-            },15000)
-        }
-        
-    })
-}
-*/
 client.on('ready', () => {
 	console.log('Logged in as', client.user.tag)
     
