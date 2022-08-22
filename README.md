@@ -1,11 +1,11 @@
 # crypto-ticker-discord.js v13
 
-บอทแสดงราคาเหรียญดิจิตอล Crypto Ticker
+บอทแสดงราคาเหรียญดิจิตอล Crypto Ticker for discord
 
 ![crypto-ticker](https://github.com/danunai1993/crypto-ticker-discordjs-v13/blob/main/crypto-ticker.png)
 
-แก้สกุลเงินได้ที่ const currency = "สกุลเงิน";
-เช่น const currency = "thb";
+แก้สกุลเงินได้ที่ const currency = "สกุลเงิน"; ex BTC,ETH,ADA,BNB
+เช่น const currency = "thb"; ex usd, try, ...
 
 
 ฝากติดตาม Facebook
