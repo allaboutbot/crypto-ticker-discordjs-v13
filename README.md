@@ -4,8 +4,9 @@
 
 ![crypto-ticker](https://github.com/danunai1993/crypto-ticker-discordjs-v13/blob/main/crypto-ticker.png)
 
-แก้สกุลเงินได้ที่ const currency = "สกุลเงิน"; ex BTC,ETH,ADA,BNB
-เช่น const currency = "thb"; ex usd, try, ...
+ดึง api จาก www.coingecko.com <br>
+แก้สกุลเงินได้ที่ const currency = "สกุลเงิน"; ex BTC,ETH,ADA,BNB <br>
+เช่น const currency = "thb"; ex usd, try, ... <br>
 
 
 ฝากติดตาม Facebook
